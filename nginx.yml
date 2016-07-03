@@ -1,0 +1,9 @@
+---
+- hosts: nginx
+  sudo: yes
+  roles:
+    - nginx
+    - homepage
+    - ldap_testservice
+    - owncloud
+    - zabbix

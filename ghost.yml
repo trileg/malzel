@@ -1,0 +1,8 @@
+---
+- hosts: ghost
+  sudo: yes
+  roles:
+    - ghost
+    - blog
+    - hack
+    - tech

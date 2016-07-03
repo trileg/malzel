@@ -1,0 +1,5 @@
+---
+- include: server.yml
+- include: nginx.yml
+- include: ghost.yml
+- include: mail.yml

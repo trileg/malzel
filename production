@@ -1,0 +1,10 @@
+[nginx]
+
+[ghost]
+
+[mail]
+
+[server:children]
+nginx
+ghost
+mail
